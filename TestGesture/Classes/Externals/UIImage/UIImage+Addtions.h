@@ -1,5 +1,5 @@
 //
-//  WebViewController.h
+//  UIImage+Addtions.h
 //  TestGesture
 //
 //  Created by pirdboy on 2018/1/24.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WebViewController : UIViewController
+@interface UIImage (Addtions)
 
-- (instancetype)initWithURLString:(NSString *)urlString;
-
++ (UIImage *)imageWithSize:(CGSize)size color:(UIColor *)color;
 
 @end

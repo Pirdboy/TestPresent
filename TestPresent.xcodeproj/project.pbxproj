@@ -30,6 +30,7 @@
 		C115C0CD2018657C007C5F07 /* PDWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = C115C0CC2018657B007C5F07 /* PDWebView.m */; };
 		C115C0D0201871C7007C5F07 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C115C0CF201871C7007C5F07 /* WebViewController.m */; };
 		C115C0D3201879AA007C5F07 /* MultiWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C115C0D2201879AA007C5F07 /* MultiWebViewController.m */; };
+		C115C0D920188132007C5F07 /* UIImage+Addtions.m in Sources */ = {isa = PBXBuildFile; fileRef = C115C0D820188132007C5F07 /* UIImage+Addtions.m */; };
 		C115CD1A1FE3594B00F78136 /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = C115CD191FE3594B00F78136 /* PaintView.m */; };
 		C115CD1E1FE359A400F78136 /* PaintViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C115CD1D1FE359A400F78136 /* PaintViewController.m */; };
 		C118BF2E1FB40430009CBF1C /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C118BF2D1FB40430009CBF1C /* MapViewController.m */; };
@@ -139,6 +140,8 @@
 		C115C0CF201871C7007C5F07 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		C115C0D1201879AA007C5F07 /* MultiWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultiWebViewController.h; sourceTree = "<group>"; };
 		C115C0D2201879AA007C5F07 /* MultiWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiWebViewController.m; sourceTree = "<group>"; };
+		C115C0D720188132007C5F07 /* UIImage+Addtions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Addtions.h"; sourceTree = "<group>"; };
+		C115C0D820188132007C5F07 /* UIImage+Addtions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Addtions.m"; sourceTree = "<group>"; };
 		C115CD181FE3594B00F78136 /* PaintView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaintView.h; sourceTree = "<group>"; };
 		C115CD191FE3594B00F78136 /* PaintView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaintView.m; sourceTree = "<group>"; };
 		C115CD1C1FE359A400F78136 /* PaintViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaintViewController.h; sourceTree = "<group>"; };
@@ -310,6 +313,7 @@
 		C115C09E20186322007C5F07 /* Externals */ = {
 			isa = PBXGroup;
 			children = (
+				C115C0D620188115007C5F07 /* UIImage */,
 				C115C09F201863A4007C5F07 /* Masonry */,
 			);
 			path = Externals;
@@ -346,6 +350,15 @@
 				C115C0B9201863A4007C5F07 /* ViewController+MASAdditions.m */,
 			);
 			path = Masonry;
+			sourceTree = "<group>";
+		};
+		C115C0D620188115007C5F07 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				C115C0D720188132007C5F07 /* UIImage+Addtions.h */,
+				C115C0D820188132007C5F07 /* UIImage+Addtions.m */,
+			);
+			path = UIImage;
 			sourceTree = "<group>";
 		};
 		C115CD171FE3592C00F78136 /* CustomView */ = {
@@ -731,6 +744,7 @@
 				C115C0BE201863A4007C5F07 /* MASLayoutConstraint.m in Sources */,
 				C115C08520185D0A007C5F07 /* AppDelegate.m in Sources */,
 				C115C0C4201863A4007C5F07 /* ViewController+MASAdditions.m in Sources */,
+				C115C0D920188132007C5F07 /* UIImage+Addtions.m in Sources */,
 				C115C0CA2018656B007C5F07 /* PDScrollView.m in Sources */,
 				C115C0C3201863A4007C5F07 /* View+MASAdditions.m in Sources */,
 				C115C0BF201863A4007C5F07 /* MASViewAttribute.m in Sources */,

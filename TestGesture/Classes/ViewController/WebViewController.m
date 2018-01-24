@@ -31,6 +31,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     _webView = [[WKWebView alloc] init];
+    _webView.scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
     [self.view addSubview:_webView];
     [_webView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.mas_equalTo(self.view);
@@ -40,7 +41,7 @@
     [self.view addSubview:_progressView];
     [_progressView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.width.mas_equalTo(self.view);
-        make.top.mas_equalTo(self.mas_topLayoutGuide);
+        make.top.mas_equalTo(self.view);
         make.left.mas_equalTo(self.view);
     }];
     _progressView.progress = 0.0;
@@ -52,7 +53,6 @@
     NSURL *url = [NSURL URLWithString:_urlString];
     NSURLRequest *re = [NSURLRequest requestWithURL:url];
     [_webView loadRequest:re];
-//    _webView.estimatedProgress;
     [_webView addObserver:self forKeyPath:@"estimatedProgress" options:NSKeyValueObservingOptionNew context:nil];
 }
 
@@ -68,6 +68,10 @@
 
 - (void)updateViewConstraints {
     [super updateViewConstraints];
+}
+
+- (void)dealloc {
+    [_webView removeObserver:self forKeyPath:@"estimatedProgress"];
 }
 
 - (void)didReceiveMemoryWarning {
