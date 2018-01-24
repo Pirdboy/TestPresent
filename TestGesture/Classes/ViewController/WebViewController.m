@@ -63,6 +63,7 @@
         CGFloat v;
         [value getValue:&v];
         _progressView.progress = v;
+        NSLog(@"进度:%lf",v);
     }
 }
 
