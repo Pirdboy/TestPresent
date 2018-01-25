@@ -10,13 +10,5 @@
 
 @implementation PDScrollView
 
-- (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
-    UIView * v= [super hitTest:point withEvent:event];
-    NSLog(@"=======PBScrollView==========");
-//    NSLog(@"hitTest:%@",v);
-    NSLog(@"手势:%@",v.gestureRecognizers);
-    NSLog(@"=================");
-    return v;
-}
 
 @end
