@@ -13,9 +13,9 @@
 
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event {
     UIView *view = [super hitTest:point withEvent:event];
-    NSLog(@"测试hitTest%@",view);
-    NSLog(@"=====================");
-    NSLog(@"测试手势%@",[view gestureRecognizers]);
+//    NSLog(@"测试hitTest%@",view);
+//    NSLog(@"=====================");
+//    NSLog(@"测试手势%@",[view gestureRecognizers]);
     
     return view;
 }

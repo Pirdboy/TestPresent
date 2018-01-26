@@ -9,11 +9,12 @@
 #import "WebViewController.h"
 #import <WebKit/WebKit.h>
 #import "Masonry.h"
-#import "PDWebView.h"
 
-@interface WebViewController ()
-@property (nonatomic, strong) PDWebView *webView;
+
+@interface WebViewController ()<WKNavigationDelegate>
+//@property (nonatomic, strong) PDWebView *webView;
 @property (nonatomic, copy) NSString *urlString;
+@property (nonatomic, assign) BOOL loaded;
 
 @end
 
@@ -28,6 +29,7 @@
 }
 
 - (void)viewDidLoad {
+    _loaded = NO;
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     _webView = [[PDWebView alloc] init];
@@ -38,15 +40,19 @@
     [_webView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.mas_equalTo(self.view);
     }];
+    _webView.navigationDelegate = self;
     
 }
 
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    NSURL *url = [NSURL URLWithString:_urlString];
-    NSURLRequest *re = [NSURLRequest requestWithURL:url];
-    [_webView loadRequest:re];
+    if(!_loaded) {
+        NSURL *url = [NSURL URLWithString:_urlString];
+        NSURLRequest *re = [NSURLRequest requestWithURL:url];
+        [_webView loadRequest:re];
+        _loaded = YES;
+    }
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
@@ -65,5 +71,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark -
+- (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation {
+//    NSString *prevent = @"document.addEventListener(\'touchmove\', function (e) { e.preventDefault(); }, false);alert(\'注入JS\');";
+//    [webView evaluateJavaScript:prevent completionHandler:nil];
+}
 
 @end

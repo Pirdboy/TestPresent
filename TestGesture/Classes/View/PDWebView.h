@@ -8,6 +8,6 @@
 
 #import <WebKit/WebKit.h>
 
-@interface PDWebView : UIWebView//WKWebView
+@interface PDWebView : WKWebView
 
 @end

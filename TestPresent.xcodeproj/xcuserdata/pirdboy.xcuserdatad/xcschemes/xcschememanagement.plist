@@ -6,28 +6,39 @@
 	<dict>
 		<key>MethodTest.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<key>TestGesture.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
 		<key>TestPresent.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
-		</dict>
-		<key>TestScrollView.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>C115C08020185D0A007C5F07</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C16F5C231EFBC18600524343</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C17EBF2A2015FADF005D168D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -45,9 +45,9 @@
     
     _scrollView = [[PDScrollView alloc] init];
     [self.view addSubview:_scrollView];
-    NSString *str1 = @"https://ai.cmbchina.com/mbf4infoweb/CmbReferNewsDiscovery.html";
+    NSString *str1 = @"https://ai.cmbchina.com/mbf4infoweb/CmbReferNewsRecInfo.html";
     NSString *str2 = @"https://github.com";
-    NSString *str3 = @"https://ai.cmbchina.com/mbf4infoweb/CmbReferNewsRecInfo.html";
+    NSString *str3 = @"https://www.baidu.com";
     _webVC1 = [[WebViewController alloc] initWithURLString:str1];
     _webVC2 = [[WebViewController alloc] initWithURLString:str2];
     _webVC3 = [[WebViewController alloc] initWithURLString:str3];
@@ -68,7 +68,7 @@
     if(@available(iOS 11.0, *)) {
         _scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
     }
-//    _scrollView.bounces = NO;
+    _scrollView.bounces = NO;
     
     _button1 = [UIButton buttonWithType:UIButtonTypeSystem];
     _button2 = [UIButton buttonWithType:UIButtonTypeSystem];
@@ -108,7 +108,8 @@
     /* 当该界面被push animated:NO时,可能不会更新约束,需要标记需要更新约束 */
     [self.view setNeedsUpdateConstraints];
     
-//    This method works fine when gesture recognizers aren’t created elsewhere in the app—or in a framework—and the set of gesture recognizers remains the same.
+    // 当用了3D touch 弹出界面时,interactivePopGestureRecognizer为nil导致闪退,建议通过继承scrollView来设置手势优先级
+//    NSLog(@"%@",self.navigationController.interactivePopGestureRecognizer);
 //    [_scrollView.panGestureRecognizer requireGestureRecognizerToFail:self.navigationController.interactivePopGestureRecognizer];
 }
 - (UIRectEdge)edgesForExtendedLayout {
@@ -191,7 +192,7 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageWithSize:(CGSize){20,40} color:[UIColor blueColor]] forBarMetrics:UIBarMetricsDefault];
-//    [self.navigationController setNavigationBarHidden:NO animated:YES];
+    
 }
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
@@ -202,13 +203,23 @@
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageWithSize:(CGSize){20,40} color:[UIColor greenColor]] forBarMetrics:UIBarMetricsDefault];
-    [self.navigationController setNavigationBarHidden:YES animated:YES];
+    
 }
 - (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
 }
 
 - (void)btnClicked:(UIButton *)btn {
+    id ges = self.navigationController.interactivePopGestureRecognizer;
+    id delg = self.navigationController.interactivePopGestureRecognizer.delegate;
+    if([delg respondsToSelector:@selector(gestureRecognizerShouldBegin:)]) {
+        BOOL ok = [delg gestureRecognizerShouldBegin:ges];
+        NSLog(@"%@",ok?@"Yes":@"No");
+    }
+    
+    //bannerContainer
+    NSString *prevent = @"document.getElementById(\"bannerContainer\").addEventListener(\'touchmove\', function (e) { e.preventDefault(); }, false);";
+    [_webVC1.webView evaluateJavaScript:prevent completionHandler:nil];
     if(btn == _button1) {
         [self.navigationController popViewControllerAnimated:NO];
     } else if(btn == _button2) {

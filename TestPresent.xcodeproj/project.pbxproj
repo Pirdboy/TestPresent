@@ -55,29 +55,12 @@
 		C16F5C341EFBC18600524343 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16F5C331EFBC18600524343 /* Assets.xcassets */; };
 		C16F5C371EFBC18600524343 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16F5C351EFBC18600524343 /* LaunchScreen.storyboard */; };
 		C1755A061F0B7BCB00901529 /* QRScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C1755A051F0B7BCB00901529 /* QRScanManager.m */; };
-		C17D3A9F2015CD8B00B827F6 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17D3A8E2015CD8B00B827F6 /* AViewController.m */; };
-		C17D3AA02015CD8B00B827F6 /* AViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17D3A8F2015CD8B00B827F6 /* AViewController.xib */; };
-		C17D3AA22015CD8B00B827F6 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17D3A932015CD8B00B827F6 /* BViewController.m */; };
-		C17D3AA32015CD8B00B827F6 /* BViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17D3A942015CD8B00B827F6 /* BViewController.xib */; };
-		C17D3AA42015CD8B00B827F6 /* CustonNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C17D3A962015CD8B00B827F6 /* CustonNavigationControllerDelegate.m */; };
-		C17D3AA72015CD8B00B827F6 /* PopTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C17D3A9A2015CD8B00B827F6 /* PopTransitionAnimation.m */; };
-		C17D3AA82015CD8B00B827F6 /* PushTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C17D3A9C2015CD8B00B827F6 /* PushTransitionAnimation.m */; };
-		C17D3AAB2015CFC300B827F6 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = C17D3AAA2015CFC300B827F6 /* ViewController2.m */; };
-		C17EBF242015D156005D168D /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C17EBF232015D156005D168D /* MyCell.m */; };
 		C17EBF2E2015FADF005D168D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C17EBF2D2015FADF005D168D /* main.m */; };
 		C1839DF01FEA0CFD00DB8092 /* PBBadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C1839DEF1FEA0CFC00DB8092 /* PBBadgeButton.m */; };
 		C1839DF61FEA0D6E00DB8092 /* JSBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1839DF51FEA0D6E00DB8092 /* JSBadgeView.m */; };
 		C1839DF81FEA0E9700DB8092 /* activity_fill.png in Resources */ = {isa = PBXBuildFile; fileRef = C1839DF71FEA0E9700DB8092 /* activity_fill.png */; };
 		C1ABBD811FA2D694002D53B7 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = C1ABBD7F1FA2D68E002D53B7 /* UIImage+Color.m */; };
 		C1AE66181FA7134600066F9B /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1AE66171FA7134600066F9B /* Property List.plist */; };
-		C1E56F3F20118568008EB76D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E56F3E20118568008EB76D /* AppDelegate.m */; };
-		C1E56F4220118568008EB76D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E56F4120118568008EB76D /* ViewController.m */; };
-		C1E56F4520118568008EB76D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E56F4320118568008EB76D /* Main.storyboard */; };
-		C1E56F4720118568008EB76D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E56F4620118568008EB76D /* Assets.xcassets */; };
-		C1E56F4A20118568008EB76D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E56F4820118568008EB76D /* LaunchScreen.storyboard */; };
-		C1E56F4D20118568008EB76D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E56F4C20118568008EB76D /* main.m */; };
-		C1E56F59201188C8008EB76D /* PDWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E56F58201188C8008EB76D /* PDWebView.m */; };
-		C1E56F5C20118900008EB76D /* PDScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E56F5B20118900008EB76D /* PDScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -182,22 +165,6 @@
 		C16F5C381EFBC18600524343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1755A041F0B7BCB00901529 /* QRScanManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRScanManager.h; sourceTree = "<group>"; };
 		C1755A051F0B7BCB00901529 /* QRScanManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRScanManager.m; sourceTree = "<group>"; };
-		C17D3A8D2015CD8B00B827F6 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
-		C17D3A8E2015CD8B00B827F6 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
-		C17D3A8F2015CD8B00B827F6 /* AViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AViewController.xib; sourceTree = "<group>"; };
-		C17D3A922015CD8B00B827F6 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
-		C17D3A932015CD8B00B827F6 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
-		C17D3A942015CD8B00B827F6 /* BViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BViewController.xib; sourceTree = "<group>"; };
-		C17D3A952015CD8B00B827F6 /* CustonNavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustonNavigationControllerDelegate.h; sourceTree = "<group>"; };
-		C17D3A962015CD8B00B827F6 /* CustonNavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustonNavigationControllerDelegate.m; sourceTree = "<group>"; };
-		C17D3A992015CD8B00B827F6 /* PopTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopTransitionAnimation.h; sourceTree = "<group>"; };
-		C17D3A9A2015CD8B00B827F6 /* PopTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopTransitionAnimation.m; sourceTree = "<group>"; };
-		C17D3A9B2015CD8B00B827F6 /* PushTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushTransitionAnimation.h; sourceTree = "<group>"; };
-		C17D3A9C2015CD8B00B827F6 /* PushTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushTransitionAnimation.m; sourceTree = "<group>"; };
-		C17D3AA92015CFC300B827F6 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
-		C17D3AAA2015CFC300B827F6 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
-		C17EBF222015D156005D168D /* MyCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
-		C17EBF232015D156005D168D /* MyCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 		C17EBF2B2015FADF005D168D /* MethodTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MethodTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17EBF2D2015FADF005D168D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C1839DEE1FEA0CFC00DB8092 /* PBBadgeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBBadgeButton.h; sourceTree = "<group>"; };
@@ -208,20 +175,6 @@
 		C1ABBD7F1FA2D68E002D53B7 /* UIImage+Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		C1ABBD801FA2D690002D53B7 /* UIImage+Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		C1AE66171FA7134600066F9B /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
-		C1E56F3B20118568008EB76D /* TestScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1E56F3D20118568008EB76D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C1E56F3E20118568008EB76D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C1E56F4020118568008EB76D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C1E56F4120118568008EB76D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C1E56F4420118568008EB76D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C1E56F4620118568008EB76D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C1E56F4920118568008EB76D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C1E56F4B20118568008EB76D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C1E56F4C20118568008EB76D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C1E56F57201188C8008EB76D /* PDWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDWebView.h; sourceTree = "<group>"; };
-		C1E56F58201188C8008EB76D /* PDWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDWebView.m; sourceTree = "<group>"; };
-		C1E56F5A20118900008EB76D /* PDScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDScrollView.h; sourceTree = "<group>"; };
-		C1E56F5B20118900008EB76D /* PDScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -243,13 +196,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		C17EBF282015FADF005D168D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1E56F3820118568008EB76D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -406,7 +352,6 @@
 			children = (
 				C1AE66171FA7134600066F9B /* Property List.plist */,
 				C16F5C261EFBC18600524343 /* TestPresent */,
-				C1E56F3C20118568008EB76D /* TestScrollView */,
 				C17EBF2C2015FADF005D168D /* MethodTest */,
 				C115C08220185D0A007C5F07 /* TestGesture */,
 				C16F5C251EFBC18600524343 /* Products */,
@@ -418,7 +363,6 @@
 			isa = PBXGroup;
 			children = (
 				C16F5C241EFBC18600524343 /* TestPresent.app */,
-				C1E56F3B20118568008EB76D /* TestScrollView.app */,
 				C17EBF2B2015FADF005D168D /* MethodTest */,
 				C115C08120185D0A007C5F07 /* TestGesture.app */,
 			);
@@ -477,25 +421,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C17D3A892015CD8B00B827F6 /* CustomNavTransition-master */ = {
-			isa = PBXGroup;
-			children = (
-				C17D3A8D2015CD8B00B827F6 /* AViewController.h */,
-				C17D3A8E2015CD8B00B827F6 /* AViewController.m */,
-				C17D3A8F2015CD8B00B827F6 /* AViewController.xib */,
-				C17D3A922015CD8B00B827F6 /* BViewController.h */,
-				C17D3A932015CD8B00B827F6 /* BViewController.m */,
-				C17D3A942015CD8B00B827F6 /* BViewController.xib */,
-				C17D3A952015CD8B00B827F6 /* CustonNavigationControllerDelegate.h */,
-				C17D3A962015CD8B00B827F6 /* CustonNavigationControllerDelegate.m */,
-				C17D3A992015CD8B00B827F6 /* PopTransitionAnimation.h */,
-				C17D3A9A2015CD8B00B827F6 /* PopTransitionAnimation.m */,
-				C17D3A9B2015CD8B00B827F6 /* PushTransitionAnimation.h */,
-				C17D3A9C2015CD8B00B827F6 /* PushTransitionAnimation.m */,
-			);
-			path = "CustomNavTransition-master";
-			sourceTree = "<group>";
-		};
 		C17EBF2C2015FADF005D168D /* MethodTest */ = {
 			isa = PBXGroup;
 			children = (
@@ -511,55 +436,6 @@
 				C1839DF51FEA0D6E00DB8092 /* JSBadgeView.m */,
 			);
 			path = JSBadgeView;
-			sourceTree = "<group>";
-		};
-		C1E56F3C20118568008EB76D /* TestScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				C1E56F512011856F008EB76D /* Classes */,
-				C1E56F3D20118568008EB76D /* AppDelegate.h */,
-				C1E56F3E20118568008EB76D /* AppDelegate.m */,
-				C1E56F4320118568008EB76D /* Main.storyboard */,
-				C1E56F4620118568008EB76D /* Assets.xcassets */,
-				C1E56F4820118568008EB76D /* LaunchScreen.storyboard */,
-				C1E56F4B20118568008EB76D /* Info.plist */,
-				C1E56F4C20118568008EB76D /* main.m */,
-			);
-			path = TestScrollView;
-			sourceTree = "<group>";
-		};
-		C1E56F512011856F008EB76D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				C17D3A892015CD8B00B827F6 /* CustomNavTransition-master */,
-				C1E56F5320118583008EB76D /* View */,
-				C1E56F5220118576008EB76D /* ViewControllers */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		C1E56F5220118576008EB76D /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				C1E56F4020118568008EB76D /* ViewController.h */,
-				C1E56F4120118568008EB76D /* ViewController.m */,
-				C17D3AA92015CFC300B827F6 /* ViewController2.h */,
-				C17D3AAA2015CFC300B827F6 /* ViewController2.m */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		C1E56F5320118583008EB76D /* View */ = {
-			isa = PBXGroup;
-			children = (
-				C1E56F57201188C8008EB76D /* PDWebView.h */,
-				C1E56F58201188C8008EB76D /* PDWebView.m */,
-				C1E56F5A20118900008EB76D /* PDScrollView.h */,
-				C1E56F5B20118900008EB76D /* PDScrollView.m */,
-				C17EBF222015D156005D168D /* MyCell.h */,
-				C17EBF232015D156005D168D /* MyCell.m */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -616,23 +492,6 @@
 			productReference = C17EBF2B2015FADF005D168D /* MethodTest */;
 			productType = "com.apple.product-type.tool";
 		};
-		C1E56F3A20118568008EB76D /* TestScrollView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C1E56F5020118568008EB76D /* Build configuration list for PBXNativeTarget "TestScrollView" */;
-			buildPhases = (
-				C1E56F3720118568008EB76D /* Sources */,
-				C1E56F3820118568008EB76D /* Frameworks */,
-				C1E56F3920118568008EB76D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TestScrollView;
-			productName = TestScrollView;
-			productReference = C1E56F3B20118568008EB76D /* TestScrollView.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -656,11 +515,6 @@
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
 					};
-					C1E56F3A20118568008EB76D = {
-						CreatedOnToolsVersion = 9.1;
-						DevelopmentTeam = KQLFUP2CLM;
-						ProvisioningStyle = Automatic;
-					};
 				};
 			};
 			buildConfigurationList = C16F5C1F1EFBC18600524343 /* Build configuration list for PBXProject "TestPresent" */;
@@ -677,7 +531,6 @@
 			projectRoot = "";
 			targets = (
 				C16F5C231EFBC18600524343 /* TestPresent */,
-				C1E56F3A20118568008EB76D /* TestScrollView */,
 				C17EBF2A2015FADF005D168D /* MethodTest */,
 				C115C08020185D0A007C5F07 /* TestGesture */,
 			);
@@ -709,18 +562,6 @@
 				C11FA76E1F9E35BB00FA0111 /* MyImage.png in Resources */,
 				C16C6ECE1FA8361900EE2D65 /* banner2.png in Resources */,
 				C12E9DD41F9E3E95006C9515 /* MyImage2.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1E56F3920118568008EB76D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C17D3AA02015CD8B00B827F6 /* AViewController.xib in Resources */,
-				C1E56F4A20118568008EB76D /* LaunchScreen.storyboard in Resources */,
-				C1E56F4720118568008EB76D /* Assets.xcassets in Resources */,
-				C17D3AA32015CD8B00B827F6 /* BViewController.xib in Resources */,
-				C1E56F4520118568008EB76D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -786,25 +627,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1E56F3720118568008EB76D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C1E56F5C20118900008EB76D /* PDScrollView.m in Sources */,
-				C17D3A9F2015CD8B00B827F6 /* AViewController.m in Sources */,
-				C17D3AA82015CD8B00B827F6 /* PushTransitionAnimation.m in Sources */,
-				C17D3AAB2015CFC300B827F6 /* ViewController2.m in Sources */,
-				C17D3AA42015CD8B00B827F6 /* CustonNavigationControllerDelegate.m in Sources */,
-				C17EBF242015D156005D168D /* MyCell.m in Sources */,
-				C1E56F4220118568008EB76D /* ViewController.m in Sources */,
-				C1E56F4D20118568008EB76D /* main.m in Sources */,
-				C17D3AA72015CD8B00B827F6 /* PopTransitionAnimation.m in Sources */,
-				C17D3AA22015CD8B00B827F6 /* BViewController.m in Sources */,
-				C1E56F3F20118568008EB76D /* AppDelegate.m in Sources */,
-				C1E56F59201188C8008EB76D /* PDWebView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -836,22 +658,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				C16F5C361EFBC18600524343 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		C1E56F4320118568008EB76D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C1E56F4420118568008EB76D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C1E56F4820118568008EB76D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C1E56F4920118568008EB76D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1068,56 +874,6 @@
 			};
 			name = Release;
 		};
-		C1E56F4E20118568008EB76D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KQLFUP2CLM;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = TestScrollView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = b.pird.TestScrollView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C1E56F4F20118568008EB76D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KQLFUP2CLM;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = TestScrollView/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = b.pird.TestScrollView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1153,15 +909,6 @@
 			buildConfigurations = (
 				C17EBF2F2015FADF005D168D /* Debug */,
 				C17EBF302015FADF005D168D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C1E56F5020118568008EB76D /* Build configuration list for PBXNativeTarget "TestScrollView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C1E56F4E20118568008EB76D /* Debug */,
-				C1E56F4F20118568008EB76D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

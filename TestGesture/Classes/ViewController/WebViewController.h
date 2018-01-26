@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PDWebView.h"
 
 @interface WebViewController : UIViewController
-
+@property (nonatomic, strong) PDWebView *webView;
 - (instancetype)initWithURLString:(NSString *)urlString;
 
 
