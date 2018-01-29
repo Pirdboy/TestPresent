@@ -45,8 +45,8 @@
     
     _scrollView = [[PDScrollView alloc] init];
     [self.view addSubview:_scrollView];
-    NSString *str1 = @"https://ai.cmbchina.com/mbf4infoweb/CmbReferNewsRecInfo.html";
-    NSString *str2 = @"https://github.com";
+    NSString *str1 = @"https://ai.cmbchina.com/mbf4infoweb/CmbReferNewsDiscovery.html";
+    NSString *str2 = @"https://ai.cmbchina.com/mbf4infoweb/CmbReferNewsRecInfo.html";
     NSString *str3 = @"https://www.baidu.com";
     _webVC1 = [[WebViewController alloc] initWithURLString:str1];
     _webVC2 = [[WebViewController alloc] initWithURLString:str2];
@@ -92,6 +92,7 @@
     [_button6 setTitle:@"hide NavBar animate" forState:UIControlStateNormal];
     [_button7 setTitle:@"push Next" forState:UIControlStateNormal];
     [_button1 addTarget:self action:@selector(btnClicked:) forControlEvents:UIControlEventTouchUpInside];
+    [_button1 addTarget:self action:@selector(btnClicked2:) forControlEvents:UIControlEventTouchUpInside];
     [_button2 addTarget:self action:@selector(btnClicked:) forControlEvents:UIControlEventTouchUpInside];
     [_button3 addTarget:self action:@selector(btnClicked:) forControlEvents:UIControlEventTouchUpInside];
     [_button4 addTarget:self action:@selector(btnClicked:) forControlEvents:UIControlEventTouchUpInside];
@@ -207,6 +208,10 @@
 }
 - (void)viewDidDisappear:(BOOL)animated {
     [super viewDidDisappear:animated];
+}
+
+- (void)btnClicked2:(UIButton *)btn2 {
+    NSLog(@"另一个点击事件");
 }
 
 - (void)btnClicked:(UIButton *)btn {

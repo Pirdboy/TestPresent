@@ -11,7 +11,8 @@
 @implementation PDScrollView
 
 - (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event {
-//    if(CGRectContainsPoint((CGRect){0,0,315,190}, point)) {
+//    NSLog(@"ce:%@",NSStringFromCGPoint(point));
+//    if(CGRectContainsPoint((CGRect){16,45,360,248}, point)) {
 //        self.scrollEnabled = NO;
 //    } else {
 //        self.scrollEnabled = YES;
