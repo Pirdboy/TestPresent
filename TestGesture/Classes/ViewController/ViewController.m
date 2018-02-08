@@ -52,6 +52,8 @@
 //    [self.navigationController setNavigationBarHidden:YES animated:NO];
 }
 
+- (IBAction)conntect:(id)sender {
+}
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     

@@ -1,0 +1,25 @@
+<Style attr1="aaaa">
+    <Button>
+      <ShowMode>0</ShowMode>
+      <Title>返回</Title>
+      <Icon>url</Icon>
+      <Action type="Callback" reset="Y">
+         <Callback>back</Callback>
+         <Url>http://xxx </Url>
+         <More>
+            <Button>
+                <Title>返回</Title>
+                <Icon>url</Icon>
+                <Action type="Callback" />
+                <LogCode>xxx</LogCode>
+            </Button>
+         </More>
+       </Action>
+       <LogCode>xx</LogCode>
+    </Button>
+
+    <!-- <Button> -->
+      <!-- ...其他按钮,暂不支持 -->
+    <!-- </Button> -->
+
+<Style>
