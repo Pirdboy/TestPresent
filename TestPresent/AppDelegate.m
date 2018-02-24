@@ -21,11 +21,11 @@
 //    UIViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"ViewController"];
 //    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     
-    PaintViewController *vc = [[PaintViewController alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
-    _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    _window.rootViewController = nav;
-    [_window makeKeyAndVisible];
+//    PaintViewController *vc = [[PaintViewController alloc] init];
+//    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+//    _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    _window.rootViewController = nav;
+//    [_window makeKeyAndVisible];
     return YES;
 }
 

@@ -46,6 +46,9 @@
 		C12E9DD71F9E44A1006C9515 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = C12E9DD61F9E44A1006C9515 /* UIImage+Resize.m */; };
 		C12E9DDC1F9E45AE006C9515 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = C12E9DD81F9E45AE006C9515 /* UIImage+Alpha.m */; };
 		C12E9DDD1F9E45AE006C9515 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = C12E9DD91F9E45AE006C9515 /* UIImage+RoundedCorner.m */; };
+		C132BA9420317AF6003D592A /* EOCAutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = C132BA9320317AF6003D592A /* EOCAutoDictionary.m */; };
+		C132BA9920318622003D592A /* EOCRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = C132BA9820318622003D592A /* EOCRectangle.m */; };
+		C132BA9C203186E9003D592A /* EOCSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = C132BA9B203186E9003D592A /* EOCSquare.m */; };
 		C15D0127202A92C30035A27A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C15D0126202A92C30035A27A /* AppDelegate.m */; };
 		C15D012A202A92C30035A27A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15D0129202A92C30035A27A /* ViewController.m */; };
 		C15D012D202A92C30035A27A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C15D012B202A92C30035A27A /* Main.storyboard */; };
@@ -60,6 +63,7 @@
 		C161E09C1FBD4AE7004999E5 /* PBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C161E09B1FBD4AE7004999E5 /* PBRootViewController.m */; };
 		C161E09F1FBD4AF2004999E5 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = C161E09E1FBD4AF2004999E5 /* ViewController2.m */; };
 		C161E0A21FBD4AFA004999E5 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = C161E0A11FBD4AFA004999E5 /* ViewController3.m */; };
+		C1698CAE202D745300B3AA39 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = C1698CAD202D745300B3AA39 /* ViewController2.m */; };
 		C16C6EC11FA82C9F00EE2D65 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C6EBF1FA82C9F00EE2D65 /* UIImage+ImageEffects.m */; };
 		C16C6EC41FA82DCA00EE2D65 /* BLRColorComponents.m in Sources */ = {isa = PBXBuildFile; fileRef = C16C6EC31FA82DCA00EE2D65 /* BLRColorComponents.m */; };
 		C16C6ECC1FA8333800EE2D65 /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = C16C6ECB1FA8333800EE2D65 /* banner.png */; };
@@ -78,6 +82,9 @@
 		C1839DF81FEA0E9700DB8092 /* activity_fill.png in Resources */ = {isa = PBXBuildFile; fileRef = C1839DF71FEA0E9700DB8092 /* activity_fill.png */; };
 		C1ABBD811FA2D694002D53B7 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = C1ABBD7F1FA2D68E002D53B7 /* UIImage+Color.m */; };
 		C1AE66181FA7134600066F9B /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1AE66171FA7134600066F9B /* Property List.plist */; };
+		C1B33B0C20303DC500350D64 /* JavaScriptCoreHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C1B33B0B20303DC500350D64 /* JavaScriptCoreHelper.m */; };
+		C1C18CFB20416915005A196E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C18CFA20416915005A196E /* AudioToolbox.framework */; };
+		C1C18CFC2041692E005A196E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C18CFA20416915005A196E /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -167,6 +174,12 @@
 		C12E9DD91F9E45AE006C9515 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
 		C12E9DDA1F9E45AE006C9515 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
 		C12E9DDB1F9E45AE006C9515 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		C132BA9220317AF6003D592A /* EOCAutoDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCAutoDictionary.h; sourceTree = "<group>"; };
+		C132BA9320317AF6003D592A /* EOCAutoDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCAutoDictionary.m; sourceTree = "<group>"; };
+		C132BA9720318622003D592A /* EOCRectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCRectangle.h; sourceTree = "<group>"; };
+		C132BA9820318622003D592A /* EOCRectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCRectangle.m; sourceTree = "<group>"; };
+		C132BA9A203186E9003D592A /* EOCSquare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCSquare.h; sourceTree = "<group>"; };
+		C132BA9B203186E9003D592A /* EOCSquare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCSquare.m; sourceTree = "<group>"; };
 		C15D0123202A92C30035A27A /* TestJSCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestJSCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C15D0125202A92C30035A27A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C15D0126202A92C30035A27A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -189,6 +202,8 @@
 		C161E09E1FBD4AF2004999E5 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		C161E0A01FBD4AFA004999E5 /* ViewController3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
 		C161E0A11FBD4AFA004999E5 /* ViewController3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		C1698CAC202D745300B3AA39 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		C1698CAD202D745300B3AA39 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		C16C6EBF1FA82C9F00EE2D65 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		C16C6EC01FA82C9F00EE2D65 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
 		C16C6EC21FA82DCA00EE2D65 /* BLRColorComponents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLRColorComponents.h; sourceTree = "<group>"; };
@@ -218,6 +233,9 @@
 		C1ABBD7F1FA2D68E002D53B7 /* UIImage+Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
 		C1ABBD801FA2D690002D53B7 /* UIImage+Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		C1AE66171FA7134600066F9B /* Property List.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		C1B33B0A20303DC500350D64 /* JavaScriptCoreHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JavaScriptCoreHelper.h; sourceTree = "<group>"; };
+		C1B33B0B20303DC500350D64 /* JavaScriptCoreHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JavaScriptCoreHelper.m; sourceTree = "<group>"; };
+		C1C18CFA20416915005A196E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,6 +258,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1C18CFB20416915005A196E /* AudioToolbox.framework in Frameworks */,
 				C15D013A202A93F10035A27A /* JavaScriptCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +267,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1C18CFC2041692E005A196E /* AudioToolbox.framework in Frameworks */,
 				C118BF301FB429F4009CBF1C /* MapKit.framework in Frameworks */,
 				C16C756B1FA854E500EE2D65 /* LocalAuthentication.framework in Frameworks */,
 			);
@@ -411,9 +431,32 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		C132BA9120317AD5003D592A /* MsgSend */ = {
+			isa = PBXGroup;
+			children = (
+				C132BA9220317AF6003D592A /* EOCAutoDictionary.h */,
+				C132BA9320317AF6003D592A /* EOCAutoDictionary.m */,
+			);
+			path = MsgSend;
+			sourceTree = "<group>";
+		};
+		C132BA95203185F2003D592A /* DesignatedInitializer */ = {
+			isa = PBXGroup;
+			children = (
+				C132BA9720318622003D592A /* EOCRectangle.h */,
+				C132BA9820318622003D592A /* EOCRectangle.m */,
+				C132BA9A203186E9003D592A /* EOCSquare.h */,
+				C132BA9B203186E9003D592A /* EOCSquare.m */,
+			);
+			path = DesignatedInitializer;
+			sourceTree = "<group>";
+		};
 		C15D0124202A92C30035A27A /* TestJSCore */ = {
 			isa = PBXGroup;
 			children = (
+				C132BA95203185F2003D592A /* DesignatedInitializer */,
+				C132BA9120317AD5003D592A /* MsgSend */,
+				C1B33B0920303D8800350D64 /* Classes */,
 				C15D0146202AA99B0035A27A /* xmlconfig.xml */,
 				C15D013F202A9FE50035A27A /* test2.html */,
 				C15D013B202A96C60035A27A /* test.html */,
@@ -428,6 +471,8 @@
 				C15D0130202A92C30035A27A /* LaunchScreen.storyboard */,
 				C15D0133202A92C30035A27A /* Info.plist */,
 				C15D0134202A92C30035A27A /* main.m */,
+				C1698CAC202D745300B3AA39 /* ViewController2.h */,
+				C1698CAD202D745300B3AA39 /* ViewController2.m */,
 			);
 			path = TestJSCore;
 			sourceTree = "<group>";
@@ -435,6 +480,7 @@
 		C16C75691FA854E500EE2D65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C1C18CFA20416915005A196E /* AudioToolbox.framework */,
 				C15D0139202A93F10035A27A /* JavaScriptCore.framework */,
 				C115C09C201862A3007C5F07 /* WebKit.framework */,
 				C118BF2F1FB429E8009CBF1C /* MapKit.framework */,
@@ -536,6 +582,15 @@
 				C1839DF51FEA0D6E00DB8092 /* JSBadgeView.m */,
 			);
 			path = JSBadgeView;
+			sourceTree = "<group>";
+		};
+		C1B33B0920303D8800350D64 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C1B33B0A20303DC500350D64 /* JavaScriptCoreHelper.h */,
+				C1B33B0B20303DC500350D64 /* JavaScriptCoreHelper.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -778,9 +833,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C15D012A202A92C30035A27A /* ViewController.m in Sources */,
+				C1B33B0C20303DC500350D64 /* JavaScriptCoreHelper.m in Sources */,
 				C15D0145202AA7F90035A27A /* XMLDictionary.m in Sources */,
+				C132BA9C203186E9003D592A /* EOCSquare.m in Sources */,
+				C1698CAE202D745300B3AA39 /* ViewController2.m in Sources */,
 				C15D0135202A92C30035A27A /* main.m in Sources */,
+				C132BA9920318622003D592A /* EOCRectangle.m in Sources */,
 				C15D0127202A92C30035A27A /* AppDelegate.m in Sources */,
+				C132BA9420317AF6003D592A /* EOCAutoDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

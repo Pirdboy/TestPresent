@@ -68,6 +68,14 @@
                                     <action selector="push:" destination="vnJ-Mi-TRv" eventType="touchUpInside" id="NtZ-Dg-Jbo"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zq0-gC-dcb">
+                                <rect key="frame" x="4" y="302" width="71" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="playsound"/>
+                                <connections>
+                                    <action selector="playsound:" destination="vnJ-Mi-TRv" eventType="touchUpInside" id="aUz-ep-bN4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>

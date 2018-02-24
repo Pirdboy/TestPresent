@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "JavaScriptCoreHelper.h"
+#import "EOCAutoDictionary.h"
+#import "EOCSquare.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +20,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSDate *date;
+    
+    // 测试DesignatedInitializer
+//    EOCSquare *square = [[EOCSquare alloc] initWithWidth:1.0 andHeight:2.0];
+    
+    
+    NSArray *arr = @[@1, @2, @3];
+    [arr enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
+        if(idx == 0) {
+            return;
+        } else {
+            NSLog(@"%@",obj);
+        }
+    }];
     return YES;
 }
 

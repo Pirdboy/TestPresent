@@ -8,6 +8,8 @@
 
 #import "PBRootViewController.h"
 #import "ViewController2.h"
+#import <AudioToolbox/AudioToolbox.h>
+
 
 @interface PBRootViewController ()
 
@@ -33,6 +35,24 @@
     [self presentViewController:vc animated:YES completion:nil];
 }
 - (IBAction)push:(id)sender {
+}
+- (IBAction)playsound:(id)sender {
+//    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+//    AudioServicesPlayAlertSound(kSystemSoundID_Vibrate);
+
+    // iPhone的Taptic Engine
+    
+    // 短振动效果(iOS 10.0+),推荐使用
+    UIImpactFeedbackGenerator *generator = [[UIImpactFeedbackGenerator alloc] initWithStyle: UIImpactFeedbackStyleMedium];
+    [generator prepare];
+    [generator impactOccurred];
+    
+//    UISelectionFeedbackGenerator
+//    UINotificationFeedbackGenerator
+    
+//    AudioServicesPlaySystemSound(1519);  // 3d touch peek时的振动效果
+//    AudioServicesPlaySystemSound(1520);    //3d touch pop时的振动效果
+//    AudioServicesPlaySystemSound(1521);   // 连续3次短振动
 }
 
 - (IBAction)dismissRoot:(id)sender {

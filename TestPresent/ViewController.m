@@ -67,8 +67,6 @@
 }
 - (IBAction)connectToHost:(id)sender {
 }
-- (IBAction)connectToHost:(id)sender {
-}
 
 #pragma mark -
 #pragma mark - UIGraphics Test

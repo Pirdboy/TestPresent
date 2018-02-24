@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^JSBlock)(UIWebView *webView,UIViewController *viewController, NSArray *args, NSError *error);
+
 @interface ViewController : UIViewController
 
 
